@@ -1,0 +1,5 @@
+/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m: In function '-[MenuViewController viewDidLoad]':
+/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m:19: warning: 'MenuViewController' may not respond to '-initOpenAL'
+/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m:19: warning: (Messages without a matching method signature
+/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m:19: warning: will be assumed to return 'id' and accept
+/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m:19: warning: '...' as arguments.)

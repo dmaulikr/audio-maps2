@@ -1,0 +1,1116 @@
+TAudioMaps
+v7
+r0
+t334568762.478335
+cCheck dependencies
+cCpResource build/Debug-iphoneos/AudioMaps.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/Info.plist AudioMaps-Info.plist
+cCompileXIB /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MainWindow.xib
+cCompileXIB /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryListViewController.xib
+cCompileXIB /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.xib
+cCompileXIB /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.xib
+cCpResource build/Debug-iphoneos/AudioMaps.app/categories ../AudioMaps2/categories
+cProcessPCH /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch.gch AudioMaps_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch.gch AudioMaps_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/main.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMapsAppDelegate.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryListViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryList.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Category.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/PointOfInterest.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/MenuViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/SoundFile.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Constants.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Source.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioPlayer.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Environment.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Listener.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/main.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMaps normal armv6
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMapsAppDelegate.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryListViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryList.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Category.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/PointOfInterest.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/MenuViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/SoundFile.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Constants.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Source.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioPlayer.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Environment.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Listener.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMaps normal armv7
+cCreateUniversalBinary /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps normal "armv6 armv7"
+cGenerateDSYMFile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app.dSYM /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps
+cProcessProductPackaging "/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/2518B0BE-31A7-4CBC-A7F8-296BCBE7B859.mobileprovision" /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision
+cTouch /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps.xcent
+cCodeSign /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC10EB60000000000000A23
+t1287720630
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004CC10F3300000000000064FD
+t1287720755
+s25853
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004CC10F330000000000001F45
+t1287720755
+s8005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC10F3800000000000459B0
+t1287720760
+s285104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/../AudioMaps2/categories
+c000000004DFFF5270000000000000176
+t1308620071
+s374
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/AudioMaps_Prefix.pch
+c000000004E379C620000000000000144
+t1312267362
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.h
+c000000004E379D06000000000000013C
+t1312267526
+s316
+i<Foundation/Foundation.h>
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m
+c000000004E37A69C00000000000003EA
+t1312269980
+s1002
+i"CategoryList.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryListViewController.xib
+c000000004E39F5B80000000000004A5A
+t1312421304
+s19034
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.h
+c000000004E379C6200000000000001D8
+t1312267362
+s472
+i<UIKit/UIKit.h>
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m
+c000000004E39E8D50000000000000AB6
+t1312418005
+s2742
+i"AudioMapsAppDelegate.h"
+i"CategoryListViewController.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.h
+c000000004E40E45200000000000003BE
+t1312875602
+s958
+i<Foundation/Foundation.h>
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+i"AudioToolbox/AudioToolbox.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m
+c000000004E40E54C0000000000001056
+t1312875852
+s4182
+i"AudioPlayer.h"
+i"Constants.h"
+i"SoundFile.h"
+i"Category.h"
+i"PointOfInterest.h"
+i"Environment.h"
+i"Source.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.h
+c000000004E40CA8F000000000000023F
+t1312869007
+s575
+i<Foundation/Foundation.h>
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m
+c000000004E40B39F00000000000004B3
+t1312863135
+s1203
+i"Category.h"
+i"PointOfInterest.h"
+i"Source.h"
+i"SoundFile.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.h
+c000000004E39F599000000000000014C
+t1312421273
+s332
+i<UIKit/UIKit.h>
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m
+c000000004E40A8450000000000000751
+t1312860229
+s1873
+i"CategoryListViewController.h"
+i"CategoryViewController.h"
+i"CategoryList.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.h
+c000000004E40C29F00000000000003B9
+t1312866975
+s953
+i<UIKit/UIKit.h>
+i"CoreLocation/CoreLocation.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m
+c000000004E40E161000000000000094C
+t1312874849
+s2380
+i"CategoryViewController.h"
+i"Environment.h"
+i"AudioPlayer.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.xib
+c000000004E40A777000000000000C6C9
+t1312860023
+s50889
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.h
+c000000004E40B1E50000000000000129
+t1312862693
+s297
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m
+c000000004E40B1DA000000000000011C
+t1312862682
+s284
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.h
+c000000004E40DED20000000000000384
+t1312874194
+s900
+i<Foundation/Foundation.h>
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+i"CoreLocation/CoreLocation.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m
+c000000004E40E4F60000000000000BD8
+t1312875766
+s3032
+i"Environment.h"
+i"Constants.h"
+i"AudioPlayer.h"
+i"Category.h"
+i"Source.h"
+i"Listener.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.h
+c000000004E40C8D3000000000000010E
+t1312868563
+s270
+i<Foundation/Foundation.h>
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m
+c000000004E40C8E300000000000001BE
+t1312868579
+s446
+i"Listener.h"
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.h
+c000000004E40E29500000000000001E8
+t1312875157
+s488
+i<Foundation/Foundation.h>
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m
+c000000004E40B34500000000000004BE
+t1312863045
+s1214
+i"PointOfInterest.h"
+i"SoundFile.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.h
+c000000004E40B2FA00000000000002AA
+t1312862970
+s682
+i<Foundation/Foundation.h>
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+i"AudioToolbox/AudioToolbox.h"
+i"Constants.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m
+c000000004E40B4120000000000000733
+t1312863250
+s1843
+i"SoundFile.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.h
+c000000004E40B487000000000000018D
+t1312863367
+s397
+i<Foundation/Foundation.h>
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m
+c000000004E40B76B0000000000000369
+t1312864107
+s873
+i"Source.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MainWindow.xib
+c000000004E3A04370000000000006182
+t1312425015
+s24962
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.h
+c000000004E39F7C600000000000000EE
+t1312421830
+s238
+i<UIKit/UIKit.h>
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m
+c000000004E39FC9900000000000007B3
+t1312423065
+s1971
+i"MenuViewController.h"
+i"CategoryListViewController.h"
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.xib
+c000000004E39FCFC000000000000495A
+t1312423164
+s18778
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps.xcent
+t1312875961
+s629
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMaps
+t1312875960
+s67388
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMaps.LinkFileList
+c000000004E40E5B40000000000000893
+t1312875956
+s2195
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMapsAppDelegate.o
+t1312875959
+s52332
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioPlayer.o
+t1312875960
+s19684
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Category.o
+t1312875960
+s13040
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryList.o
+t1312875959
+s11292
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryListViewController.o
+t1312875959
+s45400
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryViewController.o
+t1312875959
+s50312
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Constants.o
+t1312875960
+s4836
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Environment.o
+t1312875960
+s22436
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Listener.o
+t1312875960
+s8372
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/MenuViewController.o
+t1312875960
+s42660
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/PointOfInterest.o
+t1312875960
+s15248
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/SoundFile.o
+t1312875960
+s19096
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Source.o
+t1312875960
+s11064
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/main.o
+t1312875959
+s6504
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMaps
+t1312875961
+s67324
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMaps.LinkFileList
+c000000004E40E5B40000000000000893
+t1312875956
+s2195
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMapsAppDelegate.o
+t1312875960
+s52252
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioPlayer.o
+t1312875961
+s19484
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Category.o
+t1312875960
+s12964
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryList.o
+t1312875960
+s11208
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryListViewController.o
+t1312875960
+s45296
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryViewController.o
+t1312875960
+s50016
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Constants.o
+t1312875961
+s4836
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Environment.o
+t1312875961
+s22148
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Listener.o
+t1312875961
+s8348
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/MenuViewController.o
+t1312875960
+s42568
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/PointOfInterest.o
+t1312875960
+s15084
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/SoundFile.o
+t1312875960
+s18880
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Source.o
+t1312875961
+s10920
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/main.o
+t1312875960
+s6488
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app
+t1312875962
+s476
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app.dSYM
+t1312875961
+s102
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps
+t1312875961
+s141052
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/CategoryListViewController.nib
+t1312875957
+s1136
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/CategoryViewController.nib
+t1312875957
+s4376
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/Info.plist
+t1312875956
+s789
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/MainWindow.nib
+t1312875957
+s1525
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/MenuViewController.nib
+t1312875957
+s971
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/PkgInfo
+t1312875956
+s8
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/ResourceRules.plist
+t1312875956
+s485
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/categories
+t1312875958
+s340
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision
+t1312875961
+s7516
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/categories
+c000000004E37A6520000000000000176
+t1312269906
+s374
+
+N/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m
+c000000004E379C62000000000000016A
+t1312267362
+s362
+i<UIKit/UIKit.h>
+
+N/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/2518B0BE-31A7-4CBC-A7F8-296BCBE7B859.mobileprovision
+c000000004E3A5D2A0000000000001D5C
+t1312447786
+s7516
+
+N/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/E19DE1F9-CB23-4496-8AF0-B635309CB86C.mobileprovision
+c000000004E3A5BE60000000000001D12
+t1312447462
+s7442
+
+N/var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch.gch
+t1312875959
+s10446552
+
+N/var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch.gch
+t1312875959
+s9983704
+
+NAudioMaps-Info.plist
+c000000004E379C62000000000000038D
+t1312267362
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies334568756#334568756#0(0"0(0#1#0"8623811424#0"0#
+
+CCodeSign /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app
+s334568761.558611
+e334568762.478299
+r1
+xCodeSign
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/AudioMaps.app334568761#334568762#0(0"0(0#0#101"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app8618115104#770"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Brent Shadel (V7B4A43B68)" --resource-rules=/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/ResourceRules.plist --entitlements /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps.xcent /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMapsAppDelegate.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568759.713413
+e334568759.834781
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMapsAppDelegate.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m334568759#334568759#0(0"0(0#0#97"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m8623656704#2112"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMapsAppDelegate.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioPlayer.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568760.156735
+e334568760.261539
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioPlayer.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m334568760#334568760#0(0"0(0#0#88"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m8618629600#2094"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioPlayer.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Category.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568759.943220
+e334568760.030818
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Category.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m334568759#334568760#0(0"0(0#0#85"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m8621332608#2088"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Category.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryList.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568759.891664
+e334568759.951400
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryList.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m334568759#334568759#0(0"0(0#0#81"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m8621580608#2088"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryList.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryListViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568759.814425
+e334568759.891573
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryListViewController.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m334568759#334568759#0(0"0(0#0#103"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m8622329600#2124"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryListViewController.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568759.834876
+e334568759.943112
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryViewController.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m334568759#334568759#0(0"0(0#0#99"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m8622030528#2116"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/CategoryViewController.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Constants.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568760.110621
+e334568760.155383
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Constants.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m334568760#334568760#0(0"0(0#0#86"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m8621654400#2090"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Constants.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Environment.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568760.221091
+e334568760.344548
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Environment.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m334568760#334568760#0(0"0(0#0#88"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m8620689920#2094"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Environment.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Listener.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568760.261636
+e334568760.315097
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Listener.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m334568760#334568760#0(0"0(0#0#85"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m8618223104#2088"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Listener.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/MenuViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568760.031559
+e334568760.110526
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/MenuViewController.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m334568760#334568760#0(0"0(0#0#87"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m8623626016#2100"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/MenuViewController.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/PointOfInterest.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568759.951540
+e334568760.065399
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/PointOfInterest.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m334568759#334568760#0(0"0(0#0#92"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m8622268800#2102"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/PointOfInterest.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/SoundFile.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568760.065499
+e334568760.156669
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/SoundFile.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m334568760#334568760#0(0"0(0#0#86"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m8622018848#2090"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/SoundFile.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Source.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568760.155478
+e334568760.220994
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Source.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m334568760#334568760#0(0"0(0#0#83"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m8621297376#2084"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/Source.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/main.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568759.712322
+e334568759.814328
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/main.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m334568759#334568759#0(0"0(0#0#73"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m8624288704#2072"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMapsAppDelegate.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.376489
+e334568760.438211
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMapsAppDelegate.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m334568760#334568760#0(0"0(0#0#97"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m8623850912#2112"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioMapsAppDelegate.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMapsAppDelegate.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioPlayer.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568761.026010
+e334568761.134245
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioPlayer.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m334568761#334568761#0(0"0(0#0#88"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m8622386592#2094"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/AudioPlayer.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioPlayer.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Category.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.656530
+e334568760.729424
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Category.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m334568760#334568760#0(0"0(0#0#85"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m8623891680#2088"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Category.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Category.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryList.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.598957
+e334568760.656447
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryList.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m334568760#334568760#0(0"0(0#0#81"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m8619794688#2088"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryList.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryList.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryListViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.438310
+e334568760.509586
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryListViewController.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m334568760#334568760#0(0"0(0#0#103"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m8622360736#2124"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryListViewController.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryListViewController.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.509676
+e334568760.598862
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryViewController.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m334568760#334568760#0(0"0(0#0#99"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m8621812064#2116"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/CategoryViewController.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Constants.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.972550
+e334568761.025920
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Constants.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m334568760#334568761#0(0"0(0#0#86"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m8617250720#2090"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Constants.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Constants.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Environment.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568761.059744
+e334568761.168191
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Environment.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m334568761#334568761#0(0"0(0#0#88"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m8621947040#2094"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Environment.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Environment.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Listener.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568761.134341
+e334568761.193591
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Listener.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m334568761#334568761#0(0"0(0#0#85"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m8621259872#2088"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Listener.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Listener.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/MenuViewController.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.809273
+e334568760.881433
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/MenuViewController.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m334568760#334568760#0(0"0(0#0#87"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m8621539328#2100"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/MenuViewController.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/PointOfInterest.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.729518
+e334568760.809176
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/PointOfInterest.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m334568760#334568760#0(0"0(0#0#92"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m8622406464#2102"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/PointOfInterest.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/PointOfInterest.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/SoundFile.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.881527
+e334568760.997946
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/SoundFile.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m334568760#334568761#0(0"0(0#0#86"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m8620971232#2090"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/SoundFile.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/SoundFile.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Source.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.998047
+e334568761.059648
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Source.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m334568760#334568761#0(0"0(0#0#83"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m8624023136#2084"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/Source.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/Source.o0#
+
+CCompileC build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/main.o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568760.315181
+e334568760.376393
+r1
+xCompileC
+xbuild/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/main.o
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m334568760#334568760#0(0"0(0#0#73"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m8621937952#2072"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -include /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/main.m -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryListViewController.xib
+s334568756.659444
+e334568757.057706
+r1
+xCompileXIB
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryListViewController.xib
+lSLF07#2@41"CompileXIB CategoryListViewController.xib334568756#334568757#0(0"0(0#0#97"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryListViewController.xib8618142528#660"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/CategoryListViewController.nib /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/CategoryListViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.xib
+s334568757.057785
+e334568757.642097
+r1
+xCompileXIB
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.xib
+lSLF07#2@45"CompileXIB Classes/CategoryViewController.xib334568757#334568757#0(0"0(0#0#101"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.xib8621146144#660"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/CategoryViewController.nib /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/Classes/CategoryViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MainWindow.xib
+s334568756.658824
+e334568757.077478
+r1
+xCompileXIB
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib334568756#334568757#0(0"0(0#0#81"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MainWindow.xib8618503776#628"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/MainWindow.nib /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.xib
+s334568757.077563
+e334568757.444660
+r1
+xCompileXIB
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.xib
+lSLF07#2@33"CompileXIB MenuViewController.xib334568757#334568757#0(0"0(0#0#89"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.xib8621006720#644"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/MenuViewController.nib /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/MenuViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/AudioMaps.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s334568756.641652
+e334568756.658569
+r1
+xCpResource
+xbuild/Debug-iphoneos/AudioMaps.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist334568756#334568756#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8307809061684012032#552"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app0#
+
+CCpResource build/Debug-iphoneos/AudioMaps.app/categories ../AudioMaps2/categories
+s334568757.444759
+e334568758.487660
+r1
+xCpResource
+xbuild/Debug-iphoneos/AudioMaps.app/categories
+x../AudioMaps2/categories
+lSLF07#2@29"Copy ../AudioMaps2/categories334568757#334568758#0(0"0(0#0#91"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/../AudioMaps2/categories8620670400#554"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/../AudioMaps2/categories /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app0#
+
+CCpResource build/Debug-iphoneos/AudioMaps.app/categories categories
+s334140422.363276
+e334140424.010421
+r1
+xCpResource
+xbuild/Debug-iphoneos/AudioMaps.app/categories
+xcategories
+lSLF07#2@15"Copy categories334140422#334140424#0(0"0(0#0#77"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/categories8603713280#540"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/categories /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app0#
+
+CCreateUniversalBinary /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps normal "armv6 armv7"
+s334568761.418925
+e334568761.459883
+r1
+xCreateUniversalBinary
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/AudioMaps.app/AudioMaps normal "armv6 armv7"334568761#334568761#0(0"0(0#0#78"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/armv6 armv78621186336#646"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMaps /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMaps -output /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps0#
+
+CGenerateDSYMFile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app.dSYM /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps
+s334568761.459977
+e334568761.500388
+r1
+xGenerateDSYMFile
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app.dSYM
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/AudioMaps.app.dSYM build/Debug-iphoneos/AudioMaps.app/AudioMaps334568761#334568761#0(0"0(0#0#111"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps8620819200#452"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/AudioMaps -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app.dSYM0#
+
+CLd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMaps normal armv6
+s334568760.344638
+e334568760.972455
+r1
+xLd
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMaps
+xnormal
+xarmv6
+lSLF07#2@155"Link /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMaps334568760#334568760#0(0"0(0#0#0"8621643232#1077"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -filelist /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMaps.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenAL -framework CoreLocation -framework AudioToolbox -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv6/AudioMaps0#
+
+CLd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMaps normal armv7
+s334568761.193703
+e334568761.418836
+r1
+xLd
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMaps
+xnormal
+xarmv7
+lSLF07#2@155"Link /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMaps334568761#334568761#0(0"0(0#0#0"8616018208#1077"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -filelist /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMaps.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenAL -framework CoreLocation -framework AudioToolbox -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/Objects-normal/armv7/AudioMaps0#
+
+CProcessInfoPlistFile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/Info.plist AudioMaps-Info.plist
+s334568756.642375
+e334568756.658764
+r1
+xProcessInfoPlistFile
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/Info.plist
+xAudioMaps-Info.plist
+lSLF07#2@28"Process AudioMaps-Info.plist334568756#334568756#0(0"0(0#0#87"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/AudioMaps-Info.plist8618897536#682"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AudioMaps-Info.plist -genpkginfo /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/ResourceRules.plist -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/Info.plist0#
+
+CProcessPCH /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch.gch AudioMaps_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334568758.489132
+e334568759.643897
+r1
+xProcessPCH
+x/var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch.gch
+xAudioMaps_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AudioMaps_Prefix.pch334568758#334568759#0(0"0(0#0#87"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/AudioMaps_Prefix.pch8621208864#1940"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv7 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/AudioMaps_Prefix.pch -o /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-ausjeipgbpwmtybazjnmxzofglqb/AudioMaps_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch.gch AudioMaps_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334568758.487966
+e334568759.712222
+r1
+xProcessPCH
+x/var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch.gch
+xAudioMaps_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AudioMaps_Prefix.pch334568758#334568759#0(0"0(0#0#87"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/AudioMaps_Prefix.pch8623835840#1940"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-generated-files.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-own-target-headers.hmap -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-all-target-headers.hmap -iquote /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps-project-headers.hmap -F/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/include -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources/armv6 -I/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/DerivedSources -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/AudioMaps_Prefix.pch -o /var/folders/CH/CHDqm47aFh40MoZ05LTocU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AudioMaps_Prefix-fqjdnpvlmstonkeouxlcmezeugii/AudioMaps_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/2518B0BE-31A7-4CBC-A7F8-296BCBE7B859.mobileprovision" /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision
+s334568761.500485
+e334568761.536483
+r1
+xProcessProductPackaging
+x/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/2518B0BE-31A7-4CBC-A7F8-296BCBE7B859.mobileprovision
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/2518B0BE-31A7-4CBC-A7F8-296BCBE7B859.mobileprovision" build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision334568761#334568761#0(0"0(0#0#126"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision8619869376#487"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/2518B0BE-31A7-4CBC-A7F8-296BCBE7B859.mobileprovision" -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/E19DE1F9-CB23-4496-8AF0-B635309CB86C.mobileprovision" /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision
+s334140426.735095
+e334140426.758753
+r1
+xProcessProductPackaging
+x/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/E19DE1F9-CB23-4496-8AF0-B635309CB86C.mobileprovision
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/E19DE1F9-CB23-4496-8AF0-B635309CB86C.mobileprovision" build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision334140426#334140426#0(0"0(0#0#126"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision8601391616#487"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/brentshadel/Library/MobileDevice/Provisioning Profiles/E19DE1F9-CB23-4496-8AF0-B635309CB86C.mobileprovision" -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps.xcent
+s334568761.540610
+e334568761.558550
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps.xcent334568761#334568761#0(0"0(0#0#135"/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps.xcent8618875680#494"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/AudioMaps.build/Debug-iphoneos/AudioMaps.build/AudioMaps.xcent0#
+
+CTouch /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app
+s334568761.536571
+e334568761.540449
+r1
+xTouch
+x/Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app
+lSLF07#2@107"Touch /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app334568761#334568761#0(0"0(0#0#0"8619363520#322"    cd /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/brentshadel/Desktop/class/Spring_10/xcode/iPhone2/AudioMaps/build/Debug-iphoneos/AudioMaps.app0#
+
