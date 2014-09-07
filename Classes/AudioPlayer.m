@@ -175,8 +175,8 @@
 	
 	UInt32 totalChunks = fileSize / BUFFER_SIZE;
 	
-	NSLog(@"bufferIndex = %d for %@",bufferIndex,point.pointName);
-	NSLog(@"totalChunks = %d for %@",totalChunks,point.pointName);
+	NSLog(@"bufferIndex = %d for %@", (int)bufferIndex, point.pointName);
+	NSLog(@"totalChunks = %d for %@", (int)totalChunks, point.pointName);
 	
 	if (bufferIndex > totalChunks)
 	{
