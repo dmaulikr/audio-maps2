@@ -20,7 +20,6 @@
 
 -(void)initOpenAL
 {
-	NSLog(@"initializing OpenAL");
 	mDevice = alcOpenDevice(NULL);
 	if (mDevice) {
 		mContext = alcCreateContext(mDevice, NULL);

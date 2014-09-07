@@ -38,8 +38,6 @@
 	
 	self.sourceID = tempID;
 	
-	NSLog(@"building source <%d> for environment",self.sourceID);
-	
 	alSourcef(self.sourceID, AL_PITCH, 1.0f);
 	alSourcef(self.sourceID, AL_GAIN, self.gainScale);
 	alSourcei(self.sourceID, AL_LOOPING, AL_FALSE);

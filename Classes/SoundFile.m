@@ -29,8 +29,6 @@
 		self.bufferIndex = 0;
 		self.loops = YES;
 		
-		NSLog(@"building soundfile <%@> for point", [self.fileName lastPathComponent]);
-		
 		// create bufferList
 		NSMutableArray *tempList = [NSMutableArray array];
 		int i;
@@ -38,7 +36,6 @@
 		{
 			ALuint bufferID;
 			alGenBuffers(1, &bufferID);
-			NSLog(@"building buffer <%d> for soundfile", bufferID);
 			[tempList addObject:[NSNumber numberWithUnsignedInt:bufferID]];
 		}
 		self.bufferList = tempList;
@@ -54,17 +51,9 @@
 -(AudioFileID)openAudioFile:(NSString *)filePath
 {
 	AudioFileID outAFID;
-	
 	NSURL *afURL = [NSURL fileURLWithPath:filePath];
+	AudioFileOpenURL((CFURLRef)afURL, kAudioFileReadPermission, 0, &outAFID);
 	
-	#if TARGET_OS_IPHONE
-	OSStatus result = AudioFileOpenURL((CFURLRef)afURL, kAudioFileReadPermission, 0, &outAFID);
-	
-	#else
-	OSStatus result = AudioFileOpenURL((CFURLRef)afUrl, fsRdPerm, 0, &outAFID);
-
-	#endif
-	if (result != 0) NSLog(@"cannot open file: %@",filePath);
 	return outAFID;
 }
 
@@ -73,8 +62,8 @@
 {
 	UInt64 outDataSize = 0;
 	UInt32 thePropSize = sizeof(UInt64);
-	OSStatus result = AudioFileGetProperty(fileDescriptor, kAudioFilePropertyAudioDataByteCount, &thePropSize, &outDataSize);
-	if (result != 0) NSLog(@"cannot find file size");
+	AudioFileGetProperty(fileDescriptor, kAudioFilePropertyAudioDataByteCount, &thePropSize, &outDataSize);
+
 	return (UInt32)outDataSize;
 }
 

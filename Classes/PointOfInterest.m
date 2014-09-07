@@ -28,9 +28,7 @@
 	{
 		self.pointName = [[filePath lastPathComponent] stringByDeletingPathExtension];
 		
-		NSLog(@"building point <%@> for category",self.pointName);
-		      
-        NSStringEncoding encoding;
+		NSStringEncoding encoding;
         NSError *error;
         NSString *contents = [NSString stringWithContentsOfFile:filePath encoding:&encoding error:&error];
         

@@ -17,8 +17,6 @@
 
 -(id)initListener
 {
-	NSLog(@"initializing listener");
-	
 	ALfloat temp[] = {0, 0, 0, 0, 1, 0};
 	alListenerfv(AL_ORIENTATION, temp);
 	
@@ -54,13 +52,11 @@
 /*
 -(float)getListenerXPos
 {
-	NSLog(@"returning listener latitude");
 	return self.listenerLocation.coordinate.latitude;
 }
 
 -(float)getListenerZPos
 {
-	NSLog(@"returning listener longitude");
 	return self.listenerLocation.coordinate.longitude;
 }
 */

@@ -26,7 +26,6 @@
 
 -(void)playAllSoundsInEnvironment:(Environment *)environmentName
 {
-	NSLog(@"play");
 	for (int i = 0; i < environmentName.maxSources; i++)
 	{
 		PointOfInterest *point = [environmentName.activeCategory.pointArray objectAtIndex:i];
@@ -39,7 +38,6 @@
 	for (int i = 0; i < environmentName.maxSources; i++)
 	{
 		Source *source = [environmentName.sourceList objectAtIndex:i];
-		NSLog(@"stopping source %d",source.sourceID);
 		alSourceStop(source.sourceID);
 	}
 }
@@ -47,12 +45,10 @@
 
 -(void)stopAllSoundsInEnvironment:(Environment *)environmentName
 {
-	NSLog(@"stop");
 	for (int i = 0; i < environmentName.maxSources; i++)
 	{
 		PointOfInterest *point = [environmentName.activeCategory.pointArray objectAtIndex:i];
 		Source *source = point.activeSource;
-		NSLog(@"stopping source %d",source.sourceID);
 		alSourceStop(source.sourceID);
 		point.soundFile.bufferIndex = 0;
 	}
@@ -61,8 +57,6 @@
 
 -(void)cleanBuffersForEnvironment:(Environment *)environmentName
 {
-	NSLog(@"clearing buffers");
-	
 	NSMutableArray *outData = [NSMutableArray arrayWithCapacity:BUFFER_SIZE];
 	for (int j = 0; j < BUFFER_SIZE; j++)
 	{
@@ -75,8 +69,6 @@
 		for (NSNumber *bufferNumber in point.soundFile.bufferList)
 		{
 			ALuint bufferID = (ALuint)[bufferNumber unsignedIntegerValue];
-			NSLog(@"clearing buffer %d for %@",bufferID,point.pointName);
-			
 			alBufferData(bufferID, AL_FORMAT_MONO16, outData, BUFFER_SIZE, 44100);
 		}
 	}
@@ -89,7 +81,6 @@
 		for (NSNumber *bufferNumber in point.soundFile.bufferList)
 		{
 			ALuint bufferID = (ALuint)[bufferNumber unsignedIntegerValue];
-			NSLog(@"preloading buffer <%d> for %@",bufferID,point.pointName);
 			[self loadNextStreamingBufferForPoint:point intoBuffer:bufferID];
 		}
 	}
@@ -105,8 +96,6 @@
 		
 		point.activeSource = source;
 		
-		NSLog(@"linking source id %d to %@",sourceID,point.pointName);
-		
 		for (NSNumber *bufferNumber in point.soundFile.bufferList)
 		{
 			ALuint bufferID = (ALuint)[bufferNumber unsignedIntegerValue];
@@ -117,23 +106,17 @@
 
 -(void)reLinkSourcesForEnvironment:(Environment *)environment
 {
-	NSLog(@"relinking sources");
 	NSUInteger k = environment.maxSources;
 	for (NSUInteger i = 0; i < environment.maxSources; i++)
 	{
 		PointOfInterest *closePoint = [environment.activeCategory.pointArray objectAtIndex:i];
 		if (closePoint.activeSource == nil)
 		{
-			NSLog(@"close point has no source");
-			
-			
 			for (NSUInteger j = k; j < [environment.activeCategory.pointArray count]; j++)
 			{
 				PointOfInterest *farPoint = [environment.activeCategory.pointArray objectAtIndex:j];
 				if (farPoint.activeSource != nil)
 				{
-					NSLog(@"this one has a source but it shouldn't anymore");
-					
 					// 1. pause old
 					alSourcePause(farPoint.activeSource.sourceID);
 					
@@ -161,8 +144,6 @@
 			}
 		}
 	}
-	
-	NSLog(@"linking completed");
 }
 
 -(BOOL)loadNextStreamingBufferForPoint:(PointOfInterest *)point intoBuffer:(NSUInteger)bufferID
@@ -175,12 +156,8 @@
 	
 	UInt32 totalChunks = fileSize / BUFFER_SIZE;
 	
-	NSLog(@"bufferIndex = %d for %@", (int)bufferIndex, point.pointName);
-	NSLog(@"totalChunks = %d for %@", (int)totalChunks, point.pointName);
-	
 	if (bufferIndex > totalChunks)
 	{
-		NSLog(@"bufferIndex > totalChunks");
 		point.soundFile.bufferIndex = 0;
 		return point.soundFile.loops;
 	}
@@ -189,7 +166,6 @@
 	
 	if (bufferIndex == totalChunks)
 	{
-		NSLog(@"bufferIndex == totalChunks");
 		UInt32 leftOverBytes = fileSize - (BUFFER_SIZE * totalChunks);
 		tempBufferSize = leftOverBytes;
 	}
@@ -206,8 +182,6 @@
 	
 	OSStatus result = noErr;
 	result = AudioFileReadBytes(fileID, false, startOffset, &bytesToRead, outData);
-	if (result != 0) NSLog(@"cannot load stream: %@",[point.soundFile.fileName lastPathComponent]);
-	
 	alBufferData((ALuint)bufferID, AL_FORMAT_MONO16, outData, bytesToRead, 44100);
 	
 	free(outData);
@@ -226,8 +200,6 @@
 {
 	ALuint sourceID = point.activeSource.sourceID;
 	
-	NSLog(@"playing source %d for %@",sourceID,point.pointName);
-
 	if (sourceID != 0)
 	{
 		alSourcePlay(sourceID);
@@ -244,7 +216,6 @@
 	}
 	[apool release];
 	alSourceStop(point.activeSource.sourceID);
-	NSLog(@"ending");
 }
 
 -(BOOL)rotateBufferForStreamingSound:(PointOfInterest *)point
@@ -255,7 +226,6 @@
 	alGetSourcei(sourceID, AL_SOURCE_STATE, &sourceState);
 	if (sourceState != AL_PLAYING)
 	{
-		NSLog(@"source stopped");
 		return NO;
 	}
 	
@@ -268,7 +238,6 @@
 		alSourceUnqueueBuffers(sourceID, 1, &bufferID);
 		if (![self loadNextStreamingBufferForPoint:point intoBuffer:bufferID])
 		{
-			NSLog(@"returning no");
 			return NO;
 		}
 		alSourceQueueBuffers(sourceID, 1, &bufferID);

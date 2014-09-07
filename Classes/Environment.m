@@ -29,8 +29,6 @@
 
 -(id)initEnvironmentWithCategory:(NSString *)category
 {
-	NSLog(@"building environment");
-	
 	self.tracking = NO;
 	self.isPlaying = NO;
 	
@@ -52,7 +50,6 @@
 	
 	// init sourceList
 	self.sourceList = [[NSArray alloc] initWithArray:[self generateSourcesForEnvironment]];
-	NSLog(@"sourceList is length %lu", (unsigned long)[self.sourceList count]);
 	
 	// prebuffer (all) soundFiles
 	[self.audioPlayer preLoadBuffersForCategory:self.activeCategory];
@@ -60,16 +57,11 @@
 	// prelink sources to soundFiles
 	[self.audioPlayer preLinkSourcesForEnvironment:self];
 	
-	
-	NSLog(@"\n");
-	
 	return self;
 }
 
 -(NSArray *)generateSourcesForEnvironment
 {
-	NSLog(@"building sourceList for environment");
-	
 	NSMutableArray *temp = [NSMutableArray arrayWithCapacity:self.maxSources];
 	
 	for (int i = 0; i < self.maxSources; i++)
@@ -84,14 +76,11 @@
 
 -(void)updateListenerHeading:(CLHeading *)newListenerHeading
 {
-	NSLog(@"updating listener orientation");
 	[self.activeListener updateListenerHeading:newListenerHeading];
 }
 
 -(void)updateSourceGains:(CLHeading *)newListenerHeading
 {
-	NSLog(@"\nupdating source gains:");
-	
 	float newRotation = newListenerHeading.trueHeading;
 
 	for (int i = 0; i < self.maxSources; i++)
@@ -130,11 +119,8 @@
 			else
 				sourceOrientation = 270;
 		}
-		NSLog(@"listenerOrientation: %.05f",newRotation);
-		NSLog(@"sourceOrientation: %.05f",sourceOrientation);
 		
 		float diff = fabsf((fabsf(fabsf(sourceOrientation - newRotation) - 180) / 180) - 1);
-		NSLog(@"diff = %.05f",diff);
 		float gainScale = [self gaussianBellCurve:diff];
 		
 		//gainScale = gainScale * distanceGainScale;
@@ -153,8 +139,6 @@
 
 -(void)updateSourceLocations:(CLLocation *)newListenerLocation
 {
-	NSLog(@"updating source locations");
-	
 	// update and normalize each source location
 	NSString *closestSource = @"test";
 	float smallestDistance = 1000;
@@ -168,18 +152,12 @@
 	
 	for (PointOfInterest *point in self.activeCategory.pointArray)
 	{
-		NSLog(@"updating point: %@",point.pointName);
-		
 		float sourceXDir = point.defaultX - GPSX;
 		float sourceYDir = point.defaultZ - GPSY;
 		
 		float currentDistance = sqrtf((sourceXDir * sourceXDir) + (sourceYDir * sourceYDir));
 		point.currentDistance = currentDistance;
 		
-		
-		//NSLog(@"newsourceXDir: %.05f - %.05f = %.05f",point.defaultX, GPSX, sourceXDir);
-		//NSLog(@"newsourceYDir: %.05f - %.05f = %.05f",point.defaultZ, GPSY, sourceYDir);
-		NSLog(@"new point distance: %.05f",point.currentDistance);
 		
 		if (currentDistance < smallestDistance)
 		{
@@ -202,24 +180,14 @@
 		
 		point.currentX = normSourceXDir;
 		point.currentZ = normSourceYDir;
-		NSLog(@"normSourceXDir: %.05f",point.currentX);
-		NSLog(@"normSourceYDir: %.05f",point.currentZ);
 	}
-	NSLog(@"closest source: %@",closestSource);
-	NSLog(@"closest distance: %.05f",smallestDistance);
-	
 	// re-sort
 	int sortedTest = [self.activeCategory sortPointArray:0];
 	self.activeCategory.sorted = 0;
-	NSLog(@"sorted: %d",sortedTest);
+
 	if (sortedTest == 1)
 	{
-		NSLog(@"done sorting; re-linking");
 		[self.audioPlayer reLinkSourcesForEnvironment:self];
-	}
-	else
-	{
-		NSLog(@"done sorting; not re-linking");
 	}
 }
 
@@ -235,7 +203,6 @@
 	{
 		Source *source = [self.sourceList objectAtIndex:i];
 		ALuint sourceID = source.sourceID;
-		NSLog(@"deleting source %d",sourceID);
 		alDeleteSources(1, &sourceID);
 	}
 	
@@ -245,7 +212,6 @@
 		for (int i = 0; i < NUM_BUFFERS; i++)
 		{
 			ALuint bufferID = (ALuint)[[point.soundFile.bufferList objectAtIndex:i] unsignedIntegerValue];
-			NSLog(@"deleting buffer %d for %@", bufferID ,point.pointName);
 			alDeleteBuffers(1, &bufferID);
 		}
 	}
@@ -265,9 +231,6 @@
 	CLLocation *userLoc = [[CLLocation alloc] initWithLatitude:userLatitude longitude:userLongtitude];
 	
 	float smallestDistanceMeters = [userLoc distanceFromLocation:poiLoc];
-	
-	NSLog(@"poiLat: %.05f",point.defaultZ);
-	NSLog(@"userLat: %.05f",userLatitude);
 	
 	[poiLoc release];
 	[userLoc release];

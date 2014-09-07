@@ -19,7 +19,6 @@
 
 -(id)initCategoryWithCategory:(NSString *)categoryName
 {
-	NSLog(@"building category <%@> for environment", categoryName);
 	self.pointArray = [self generatePointsForCategory:categoryName];
 	self.sorted = 0;
 	
@@ -55,7 +54,6 @@
 
 -(int)sortPointArray:(int)index
 {
-	NSLog(@"sorting");
 	int i = index;
 	
 	if (i < [self.pointArray count] - 1)
@@ -68,14 +66,12 @@
 		
 		if (test1 > test2)
 		{
-			NSLog(@"exchanging order");
 			[self.pointArray exchangeObjectAtIndex:i withObjectAtIndex:i+1];
 			if (i > 0) i--;
 			self.sorted = 1;
 		}
 		else
 		{
-			NSLog(@"proceeding");
 			i++;
 		}
 		[self sortPointArray:i];

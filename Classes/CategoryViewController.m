@@ -81,7 +81,6 @@
 {
 	if (self.environment.tracking)
 	{
-		NSLog(@"stopping tracking");
 		self.environment.tracking = NO;
 		[self.locationManager stopUpdatingHeading];
 		[self.locationManager stopUpdatingLocation];
@@ -89,7 +88,6 @@
 	}
 	else
 	{
-		NSLog(@"starting tracking");
 		self.environment.tracking = YES;
 		[self.locationManager startUpdatingHeading];
 		[self.locationManager startUpdatingLocation];
@@ -99,7 +97,6 @@
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newListenerLocation fromLocation:(CLLocation *)previousListenerLocation
 {
-	NSLog(@"updating position");
 	[self.environment updateSourceLocations:newListenerLocation];
 	
 	xPos.text = [NSString stringWithFormat:@"%.5f",newListenerLocation.coordinate.latitude];
@@ -111,7 +108,6 @@
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newListenerHeading
 {
-	NSLog(@"updating heading");
 	[self.environment updateListenerHeading:newListenerHeading];
 	
 	//[environment updateSourceGains:newListenerHeading];
@@ -122,8 +118,9 @@
 -(void)locationManager:(CLLocationManager*)manager didFailWithError:(NSError*)error
 {
 	if ([error code] == kCLErrorDenied)
+    {
 		[self.locationManager stopUpdatingLocation];
-	NSLog(@"location manager failed");
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -133,7 +130,6 @@
 
 - (void)dealloc {
     if (self.environment.tracking) {
-		NSLog(@"stopping tracking");
 		self.environment.tracking = NO;
 		[self.locationManager stopUpdatingHeading];
 		[self.locationManager stopUpdatingLocation];
