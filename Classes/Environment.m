@@ -8,17 +8,24 @@
 
 #import "Environment.h"
 
-#include "Constants.h";
-#include "AudioPlayer.h";
-#include "Category.h";
-#include "Source.h";
-#include "Listener.h";
-#include "SoundFile.h";
-#include "PointOfInterest.h";
+#include "Constants.h"
+#include "AudioPlayer.h"
+#include "Category.h"
+#include "Source.h"
+#include "Listener.h"
+#include "SoundFile.h"
+#include "PointOfInterest.h"
 
 @implementation Environment
 
-@synthesize maxSources, maxDistance, activeCategory, audioPlayer, sourceList, tracking, activeListener, isPlaying;
+@synthesize maxSources = maxSources_;
+@synthesize maxDistance = maxDistance_;
+@synthesize activeCategory = activeCategory_;
+@synthesize audioPlayer = audioPlayer_;
+@synthesize sourceList = sourceList_;
+@synthesize tracking = tracking_;
+@synthesize activeListener = activeListener_;
+@synthesize isPlaying = isPlaying_;
 
 -(id)initEnvironmentWithCategory:(NSString *)category
 {
@@ -34,8 +41,8 @@
 	self.activeCategory = [[Category alloc] initCategoryWithCategory:category];
 	
 	// define maxSources
-	if (MAX_SOURCES < [self.activeCategory.pointArray count]) maxSources = MAX_SOURCES;
-	else maxSources = [self.activeCategory.pointArray count];
+	if (MAX_SOURCES < [self.activeCategory.pointArray count]) self.maxSources = MAX_SOURCES;
+	else self.maxSources = [self.activeCategory.pointArray count];
 	
 	// define maxDistance
 	self.maxDistance = MAX_DISTANCE;
@@ -45,13 +52,13 @@
 	
 	// init sourceList
 	self.sourceList = [[NSArray alloc] initWithArray:[self generateSourcesForEnvironment]];
-	NSLog(@"sourceList is length %d",[self.sourceList count]);
+	NSLog(@"sourceList is length %lu", (unsigned long)[self.sourceList count]);
 	
 	// prebuffer (all) soundFiles
-	[audioPlayer preLoadBuffersForCategory:activeCategory];
+	[self.audioPlayer preLoadBuffersForCategory:self.activeCategory];
 	
 	// prelink sources to soundFiles
-	[audioPlayer preLinkSourcesForEnvironment:self];
+	[self.audioPlayer preLinkSourcesForEnvironment:self];
 	
 	
 	NSLog(@"\n");
@@ -87,10 +94,10 @@
 	
 	float newRotation = newListenerHeading.trueHeading;
 
-	for (int i = 0; i < maxSources; i++)
+	for (int i = 0; i < self.maxSources; i++)
 	{
 		PointOfInterest *point = [self.activeCategory.pointArray objectAtIndex:i];
-		NSUInteger sourceID = point.activeSource.sourceID;
+		ALuint sourceID = (ALuint)point.activeSource.sourceID;
 		
 		ALfloat sourceXDir;
 		ALfloat sourceZDir;
@@ -218,13 +225,13 @@
 
 -(void)updateMaxDistanceSlider:(float)newMaxDistance
 {
-	maxDistance = newMaxDistance;
+	self.maxDistance = newMaxDistance;
 }
 
 -(void)cleanUpOpenAL
 {
 	// delete sources
-	for (int i = 0; i < maxSources; i++)
+	for (int i = 0; i < self.maxSources; i++)
 	{
 		Source *source = [self.sourceList objectAtIndex:i];
 		ALuint sourceID = source.sourceID;
@@ -237,8 +244,8 @@
 	{
 		for (int i = 0; i < NUM_BUFFERS; i++)
 		{
-			NSUInteger bufferID = [[point.soundFile.bufferList objectAtIndex:i] unsignedIntegerValue];
-			NSLog(@"deleting buffer %d for %@",bufferID,point.pointName);
+			ALuint bufferID = (ALuint)[[point.soundFile.bufferList objectAtIndex:i] unsignedIntegerValue];
+			NSLog(@"deleting buffer %d for %@", bufferID ,point.pointName);
 			alDeleteBuffers(1, &bufferID);
 		}
 	}
@@ -268,15 +275,8 @@
 	return smallestDistanceMeters;
 }
 
-
--(void)dealloc
-{
-	[self cleanUpOpenAL];
-	[self.activeListener release], self.activeListener = nil;
-	[self.activeCategory release], self.activeCategory = nil;
-	[self.audioPlayer release], self.audioPlayer = nil;
-	[self.sourceList release], self.sourceList = nil;
-	[super dealloc];
+-(void)stopTracking {
+    
 }
 
 @end

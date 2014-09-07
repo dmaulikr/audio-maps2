@@ -14,10 +14,11 @@
 @class Source;
 
 @interface Category : NSObject {
+    
 }
 
-@property (nonatomic, retain) NSMutableArray *pointArray;
-@property int sorted;
+@property(strong, nonatomic) NSMutableArray *pointArray;
+@property(assign, nonatomic) int sorted;
 
 
 -(PointOfInterest *)getPointAtIndex:(NSUInteger)index;

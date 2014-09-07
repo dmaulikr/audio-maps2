@@ -12,7 +12,6 @@
 
 @implementation MenuViewController
 
-
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.title = @"Categories";
@@ -76,14 +75,6 @@
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
 }
-
-- (void)dealloc {
-	alcMakeContextCurrent(NULL);
-	alcDestroyContext(mContext);
-	alcCloseDevice(mDevice);
-    [super dealloc];
-}
-
 
 @end
 

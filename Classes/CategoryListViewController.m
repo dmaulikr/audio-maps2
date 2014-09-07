@@ -12,7 +12,7 @@
 
 @implementation CategoryListViewController
 
-@synthesize categories;
+@synthesize categories = categories_;
 
 -(void) viewDidLoad
 {
@@ -54,13 +54,6 @@
 	categoryViewController.activeCategory = [self.categories categoryAtIndex:indexPath.row];
 	[self.navigationController pushViewController:categoryViewController animated:YES];
 	[categoryViewController release];
-}
-
-
--(void)dealloc
-{
-	[categories release], categories = nil;
-	[super dealloc];
 }
 
 @end

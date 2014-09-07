@@ -26,9 +26,9 @@
 	IBOutlet UIButton *trackingButton;
 }
 
-@property (nonatomic, retain) NSString *activeCategory;
-@property (nonatomic, retain) IBOutlet Environment *environment;
-@property (nonatomic, retain) CLLocationManager *locationManager;
+@property(strong, nonatomic) NSString *activeCategory;
+@property(strong, nonatomic) IBOutlet Environment *environment;
+@property(strong, nonatomic) CLLocationManager *locationManager;
 
 -(void)loadSelectedPage;
 

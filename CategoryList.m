@@ -11,14 +11,16 @@
 
 @implementation CategoryList
 
+@synthesize categoryArray = categoryArray_;
+
 -(NSUInteger)count
 {
-	return [categoryArray count];
+	return [self.categoryArray count];
 }
 
 -(NSString *)categoryAtIndex:(NSUInteger)index
 {
-	return [categoryArray objectAtIndex:index];
+	return [self.categoryArray objectAtIndex:index];
 }
 
 -(void)awakeFromNib
@@ -34,13 +36,7 @@
 	[temp addObject:[NSString stringWithFormat:@"G"]];
 	[temp addObject:[NSString stringWithFormat:@"BDFV"]];
 	
-	categoryArray = [[NSArray alloc] initWithArray:temp];
-}
-
--(void)dealloc
-{
-	[categoryArray release], categoryArray = nil;
-	[super dealloc];
+	self.categoryArray = [[NSArray alloc] initWithArray:temp];
 }
 
 @end

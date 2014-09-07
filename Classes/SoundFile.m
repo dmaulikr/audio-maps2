@@ -11,7 +11,12 @@
 
 @implementation SoundFile
 
-@synthesize bufferList, fileID, fileName, fileSize, bufferIndex, loops;
+@synthesize bufferList = bufferList_;
+@synthesize fileID = fileID_;
+@synthesize fileName = fileName_;
+@synthesize fileSize = fileSize_;
+@synthesize bufferIndex = bufferIndex_;
+@synthesize loops = loops_;
 
 
 -(id)initWithFile:(NSString *)filePath
@@ -24,21 +29,21 @@
 		self.bufferIndex = 0;
 		self.loops = YES;
 		
-		NSLog(@"building soundfile <%@> for point", [fileName lastPathComponent]);
+		NSLog(@"building soundfile <%@> for point", [self.fileName lastPathComponent]);
 		
 		// create bufferList
 		NSMutableArray *tempList = [NSMutableArray array];
 		int i;
 		for (i = 0; i < NUM_BUFFERS; i++)
 		{
-			NSUInteger bufferID;
+			ALuint bufferID;
 			alGenBuffers(1, &bufferID);
 			NSLog(@"building buffer <%d> for soundfile", bufferID);
 			[tempList addObject:[NSNumber numberWithUnsignedInt:bufferID]];
 		}
 		self.bufferList = tempList;
 		
-		AudioFileClose(fileID);
+		AudioFileClose(self.fileID);
 		
 	}
 	
@@ -71,14 +76,6 @@
 	OSStatus result = AudioFileGetProperty(fileDescriptor, kAudioFilePropertyAudioDataByteCount, &thePropSize, &outDataSize);
 	if (result != 0) NSLog(@"cannot find file size");
 	return (UInt32)outDataSize;
-}
-
-
--(void)dealloc
-{
-	[bufferList release], bufferList = nil;
-	[fileName release], fileName = nil;
-	[super dealloc];
 }
 
 @end

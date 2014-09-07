@@ -14,7 +14,7 @@
 
 }
 
-@property (nonatomic, retain) CLHeading *listenerHeading;
+@property(strong, nonatomic) CLHeading *listenerHeading;
 //@property (nonatomic, retain) CLLocation *listenerLocation;
 
 -(id)initListener;

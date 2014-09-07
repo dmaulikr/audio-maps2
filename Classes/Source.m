@@ -12,7 +12,10 @@
 
 @implementation Source
 
-@synthesize sourceID, xPos, zPos, gainScale;
+@synthesize sourceID = sourceID_;
+@synthesize xPos = xPos_;
+@synthesize zPos = zPos_;
+@synthesize gainScale = gainScale_;
 
 -(id)initSourceWithID:(ALuint)newSourceID
 {

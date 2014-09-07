@@ -18,12 +18,12 @@
 
 }
 
-@property (nonatomic, retain) NSArray *bufferList;
-@property (nonatomic, retain) NSString *fileName;
-@property AudioFileID fileID;
-@property UInt32 fileSize;
-@property UInt32 bufferIndex;
-@property BOOL loops;
+@property(strong, nonatomic) NSArray *bufferList;
+@property(strong, nonatomic) NSString *fileName;
+@property(assign, nonatomic) AudioFileID fileID;
+@property(assign, nonatomic) UInt32 fileSize;
+@property(assign, nonatomic) UInt32 bufferIndex;
+@property(assign, nonatomic) BOOL loops;
 
 
 -(id)initWithFile:(NSString *)fileURL;

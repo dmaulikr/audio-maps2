@@ -13,13 +13,15 @@
 
 @implementation CategoryViewController
 
-@synthesize activeCategory, environment, locationManager;
+@synthesize activeCategory = activeCategory_;
+@synthesize environment = environment_;
+@synthesize locationManager = locationManager_;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-	self.title = activeCategory;
+	self.title = self.activeCategory;
 	
 	
 	CLLocationManager *tempManager = [[CLLocationManager alloc] init];
@@ -36,15 +38,15 @@
 
 -(void)loadSelectedPage
 {
-	environment = [environment initEnvironmentWithCategory:activeCategory];
+	self.environment = [self.environment initEnvironmentWithCategory:self.activeCategory];
 }
 
 -(IBAction)playButtonPressed
 {
 	if (self.environment.tracking)
 	{
-		[environment.audioPlayer playAllSoundsInEnvironment:environment];
-		environment.isPlaying = YES;
+		[self.environment.audioPlayer playAllSoundsInEnvironment:self.environment];
+		self.environment.isPlaying = YES;
 	}
 	else {
 		UIAlertView *alert = [[UIAlertView alloc]
@@ -58,29 +60,29 @@
 
 -(IBAction)pauseButtonPressed
 {
-	[environment.audioPlayer pauseAllSoundsInEnvironment:environment];
-	environment.isPlaying = NO;
+	[self.environment.audioPlayer pauseAllSoundsInEnvironment:self.environment];
+	self.environment.isPlaying = NO;
 }
 
 -(IBAction)stopButtonPressed
 {
-	[environment.audioPlayer stopAllSoundsInEnvironment:environment];
-	environment.isPlaying = NO;
+	[self.environment.audioPlayer stopAllSoundsInEnvironment:self.environment];
+	self.environment.isPlaying = NO;
 }
 
 -(IBAction)distanceSliderDidUpdate
 {
-	environment.maxDistance = distanceSlider.value;
-	distanceValue.text = [NSString stringWithFormat:@"%1.2f",environment.maxDistance];
+	self.environment.maxDistance = distanceSlider.value;
+	distanceValue.text = [NSString stringWithFormat:@"%1.2f",self.environment.maxDistance];
 }
 
 
 -(IBAction)trackingButtonPressed
 {
-	if (environment.tracking)
+	if (self.environment.tracking)
 	{
 		NSLog(@"stopping tracking");
-		environment.tracking = NO;
+		self.environment.tracking = NO;
 		[self.locationManager stopUpdatingHeading];
 		[self.locationManager stopUpdatingLocation];
 		[trackingButton setTitle:@"Start Tracking" forState:UIControlStateNormal];
@@ -88,20 +90,17 @@
 	else
 	{
 		NSLog(@"starting tracking");
-		environment.tracking = YES;
-		
+		self.environment.tracking = YES;
 		[self.locationManager startUpdatingHeading];
 		[self.locationManager startUpdatingLocation];
 		[trackingButton setTitle:@"Stop Tracking" forState:UIControlStateNormal];
 	}
-
 }
-
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newListenerLocation fromLocation:(CLLocation *)previousListenerLocation
 {
 	NSLog(@"updating position");
-	[environment updateSourceLocations:newListenerLocation];
+	[self.environment updateSourceLocations:newListenerLocation];
 	
 	xPos.text = [NSString stringWithFormat:@"%.5f",newListenerLocation.coordinate.latitude];
 	zPos.text = [NSString stringWithFormat:@"%.5f",newListenerLocation.coordinate.longitude];
@@ -113,55 +112,33 @@
 -(void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newListenerHeading
 {
 	NSLog(@"updating heading");
-	[environment updateListenerHeading:newListenerHeading];
+	[self.environment updateListenerHeading:newListenerHeading];
 	
 	//[environment updateSourceGains:newListenerHeading];
 	
-	orientation.text = [NSString stringWithFormat:@"%.0f",[environment.activeListener getListenerHeadingInDegrees]];
+	orientation.text = [NSString stringWithFormat:@"%.0f",[self.environment.activeListener getListenerHeadingInDegrees]];
 }
 
 -(void)locationManager:(CLLocationManager*)manager didFailWithError:(NSError*)error
 {
 	if ([error code] == kCLErrorDenied)
-		[locationManager stopUpdatingLocation];
+		[self.locationManager stopUpdatingLocation];
 	NSLog(@"location manager failed");
 }
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations.
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
 }
 
-- (void)viewDidUnload {
-	[super viewDidUnload];
-}
+- (void)dealloc {
+    if (self.environment.tracking) {
+		NSLog(@"stopping tracking");
+		self.environment.tracking = NO;
+		[self.locationManager stopUpdatingHeading];
+		[self.locationManager stopUpdatingLocation];
+	}
 
-
-- (void)dealloc
-{
-	NSLog(@"deallocating CategoryViewController");
-
-	NSLog(@"trying to dealloc environment");
-	[environment release], environment = nil;
-	
-	NSLog(@"trying to dealloc category");
-	[activeCategory release], activeCategory = nil;
-	
-	NSLog(@"trying to dealloc locationManager");
-	[locationManager release], locationManager = nil;
-	
-	NSLog(@"trying to dealloc super");
     [super dealloc];
 }
-
-
 @end

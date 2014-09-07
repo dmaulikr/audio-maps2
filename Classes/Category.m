@@ -14,12 +14,13 @@
 
 @implementation Category
 
-@synthesize pointArray, sorted;
+@synthesize pointArray = pointArray_;
+@synthesize sorted = sorted_;
 
 -(id)initCategoryWithCategory:(NSString *)categoryName
 {
 	NSLog(@"building category <%@> for environment", categoryName);
-	pointArray = [self generatePointsForCategory:categoryName];
+	self.pointArray = [self generatePointsForCategory:categoryName];
 	self.sorted = 0;
 	
 	return self;
@@ -43,13 +44,13 @@
 
 -(PointOfInterest *)getPointAtIndex:(NSUInteger)index
 {
-	return [pointArray objectAtIndex:index];
+	return [self.pointArray objectAtIndex:index];
 }
 
 
 -(NSUInteger)count
 {
-	return [pointArray count];
+	return [self.pointArray count];
 }
 
 -(int)sortPointArray:(int)index
@@ -81,12 +82,6 @@
 	}
 	
 	return self.sorted;
-}
-
--(void) dealloc
-{
-	[pointArray release], pointArray = nil;
-	[super dealloc];
 }
 
 @end

@@ -13,6 +13,8 @@
 	NSArray *categoryArray;
 }
 
+@property(strong, nonatomic) NSArray *categoryArray;
+
 -(NSUInteger)count;
 -(NSString *)categoryAtIndex:(NSUInteger)index;
 

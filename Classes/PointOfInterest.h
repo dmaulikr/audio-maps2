@@ -12,16 +12,17 @@
 @class SoundFile;
 
 @interface PointOfInterest : NSObject {
+    
 }
 
-@property (nonatomic, retain) NSString *pointName;
-@property float defaultX;
-@property float defaultZ;
-@property float currentX;
-@property float currentZ;
-@property float currentDistance;
-@property (nonatomic, retain) SoundFile *soundFile;
-@property (nonatomic, retain) Source *activeSource;
+@property(strong, nonatomic) NSString *pointName;
+@property(assign, nonatomic) float defaultX;
+@property(assign, nonatomic) float defaultZ;
+@property(assign, nonatomic) float currentX;
+@property(assign, nonatomic) float currentZ;
+@property(assign, nonatomic) float currentDistance;
+@property(strong, nonatomic) SoundFile *soundFile;
+@property(strong, nonatomic) Source *activeSource;
 
 
 

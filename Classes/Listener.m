@@ -13,7 +13,7 @@
 
 @implementation Listener
 
-@synthesize listenerHeading; //, listenerLocation;
+@synthesize listenerHeading = listenerHeading_; //, listenerLocation;
 
 -(id)initListener
 {
@@ -64,12 +64,5 @@
 	return self.listenerLocation.coordinate.longitude;
 }
 */
-
--(void)dealloc
-{
-	[listenerHeading release], listenerHeading = nil;
-	//[listenerLocation release], listenerLocation = nil;
-	[super dealloc];
-}
 
 @end

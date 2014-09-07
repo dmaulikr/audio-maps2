@@ -15,10 +15,10 @@
 	
 }
 
-@property ALuint sourceID;
-@property float xPos;
-@property float zPos;
-@property float gainScale;
+@property(assign, nonatomic) ALuint sourceID;
+@property(assign, nonatomic) float xPos;
+@property(assign, nonatomic) float zPos;
+@property(assign, nonatomic) float gainScale;
 
 
 -(id)initSourceWithID:(ALuint)newSourceID;

@@ -12,7 +12,14 @@
 
 @implementation PointOfInterest
 
-@synthesize pointName, defaultX, defaultZ, currentX, currentZ, soundFile, activeSource, currentDistance;
+@synthesize pointName = pointName_;
+@synthesize defaultX = defaultX_;
+@synthesize defaultZ = defaultZ_;
+@synthesize currentX = currentX_;
+@synthesize currentZ = currentZ_;
+@synthesize soundFile = soundFile_;
+@synthesize activeSource = activeSource_;
+@synthesize currentDistance = currentDistance_;
 
 
 -(id)initWithFile:(NSString *)filePath;
@@ -22,8 +29,11 @@
 		self.pointName = [[filePath lastPathComponent] stringByDeletingPathExtension];
 		
 		NSLog(@"building point <%@> for category",self.pointName);
-		
-		NSString *contents = [[NSString alloc] initWithContentsOfFile:filePath];
+		      
+        NSStringEncoding encoding;
+        NSError *error;
+        NSString *contents = [NSString stringWithContentsOfFile:filePath encoding:&encoding error:&error];
+        
 		NSArray *chunks = [contents componentsSeparatedByString:@":"];
 		[contents release], contents = nil;
 		self.defaultX = [[chunks objectAtIndex:2] floatValue];
@@ -41,11 +51,4 @@
 	return self;
 }
 
--(void)dealloc
-{
-	[pointName release], pointName = nil;
-	[soundFile release], soundFile = nil;
-	[activeSource release], activeSource = nil;
-	[super dealloc];
-}
 @end

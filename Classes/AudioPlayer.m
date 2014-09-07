@@ -74,7 +74,7 @@
 		PointOfInterest *point = [environmentName.activeCategory.pointArray objectAtIndex:i];
 		for (NSNumber *bufferNumber in point.soundFile.bufferList)
 		{
-			NSUInteger bufferID = [bufferNumber unsignedIntegerValue];
+			ALuint bufferID = (ALuint)[bufferNumber unsignedIntegerValue];
 			NSLog(@"clearing buffer %d for %@",bufferID,point.pointName);
 			
 			alBufferData(bufferID, AL_FORMAT_MONO16, outData, BUFFER_SIZE, 44100);
@@ -88,7 +88,7 @@
 	{
 		for (NSNumber *bufferNumber in point.soundFile.bufferList)
 		{
-			NSUInteger bufferID = [bufferNumber unsignedIntegerValue];
+			ALuint bufferID = (ALuint)[bufferNumber unsignedIntegerValue];
 			NSLog(@"preloading buffer <%d> for %@",bufferID,point.pointName);
 			[self loadNextStreamingBufferForPoint:point intoBuffer:bufferID];
 		}
@@ -109,7 +109,7 @@
 		
 		for (NSNumber *bufferNumber in point.soundFile.bufferList)
 		{
-			NSUInteger bufferID = [bufferNumber unsignedIntegerValue];
+			ALuint bufferID = (ALuint)[bufferNumber unsignedIntegerValue];
 			alSourceQueueBuffers(sourceID, 1, &bufferID);
 		}
 	}
@@ -118,8 +118,8 @@
 -(void)reLinkSourcesForEnvironment:(Environment *)environment
 {
 	NSLog(@"relinking sources");
-	int k = environment.maxSources;
-	for (int i = 0; i < environment.maxSources; i++)
+	NSUInteger k = environment.maxSources;
+	for (NSUInteger i = 0; i < environment.maxSources; i++)
 	{
 		PointOfInterest *closePoint = [environment.activeCategory.pointArray objectAtIndex:i];
 		if (closePoint.activeSource == nil)
@@ -127,7 +127,7 @@
 			NSLog(@"close point has no source");
 			
 			
-			for (int j = k; j < [environment.activeCategory.pointArray count]; j++)
+			for (NSUInteger j = k; j < [environment.activeCategory.pointArray count]; j++)
 			{
 				PointOfInterest *farPoint = [environment.activeCategory.pointArray objectAtIndex:j];
 				if (farPoint.activeSource != nil)
@@ -173,7 +173,7 @@
 	UInt32 fileSize = point.soundFile.fileSize;
 	UInt32 bufferIndex = point.soundFile.bufferIndex;
 	
-	NSInteger totalChunks = fileSize / BUFFER_SIZE;
+	UInt32 totalChunks = fileSize / BUFFER_SIZE;
 	
 	NSLog(@"bufferIndex = %d for %@",bufferIndex,point.pointName);
 	NSLog(@"totalChunks = %d for %@",totalChunks,point.pointName);
@@ -190,7 +190,7 @@
 	if (bufferIndex == totalChunks)
 	{
 		NSLog(@"bufferIndex == totalChunks");
-		NSInteger leftOverBytes = fileSize - (BUFFER_SIZE * totalChunks);
+		UInt32 leftOverBytes = fileSize - (BUFFER_SIZE * totalChunks);
 		tempBufferSize = leftOverBytes;
 	}
 	
@@ -208,7 +208,7 @@
 	result = AudioFileReadBytes(fileID, false, startOffset, &bytesToRead, outData);
 	if (result != 0) NSLog(@"cannot load stream: %@",[point.soundFile.fileName lastPathComponent]);
 	
-	alBufferData(bufferID, AL_FORMAT_MONO16, outData, bytesToRead, 44100);
+	alBufferData((ALuint)bufferID, AL_FORMAT_MONO16, outData, bytesToRead, 44100);
 	
 	free(outData);
 	outData = NULL;
@@ -251,7 +251,7 @@
 {
 	ALuint sourceID = point.activeSource.sourceID;
 	
-	NSInteger sourceState;
+	ALint sourceState;
 	alGetSourcei(sourceID, AL_SOURCE_STATE, &sourceState);
 	if (sourceState != AL_PLAYING)
 	{
@@ -259,12 +259,12 @@
 		return NO;
 	}
 	
-	NSInteger buffersProcessed = 0;
+	ALint buffersProcessed = 0;
 	alGetSourcei(sourceID, AL_BUFFERS_PROCESSED, &buffersProcessed);
 	
 	if (buffersProcessed > 0)
 	{
-		NSUInteger bufferID;
+		ALuint bufferID;
 		alSourceUnqueueBuffers(sourceID, 1, &bufferID);
 		if (![self loadNextStreamingBufferForPoint:point intoBuffer:bufferID])
 		{

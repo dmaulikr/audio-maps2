@@ -13,19 +13,18 @@
 
 @class AudioPlayer, Category, Listener;
 
-@interface Environment : NSObject
-{
-	BOOL tracking;
+@interface Environment : NSObject {
+
 }
 
-@property (nonatomic, retain) Category *activeCategory;
-@property (nonatomic, retain) AudioPlayer *audioPlayer;
-@property (nonatomic, retain) NSArray *sourceList;
-@property (nonatomic, retain) Listener *activeListener;
-@property int maxSources;
-@property float maxDistance;
-@property BOOL tracking;
-@property BOOL isPlaying;
+@property(strong, nonatomic) Category *activeCategory;
+@property(strong, nonatomic) AudioPlayer *audioPlayer;
+@property(strong, nonatomic) NSArray *sourceList;
+@property(strong, nonatomic) Listener *activeListener;
+@property(assign, nonatomic) NSUInteger maxSources;
+@property(assign, nonatomic) float maxDistance;
+@property(assign, nonatomic) BOOL tracking;
+@property(assign, nonatomic) BOOL isPlaying;
 
 -(id)initEnvironmentWithCategory:(NSString *)category;
 -(void)updateListenerHeading:(CLHeading *)newListenerHeading;
@@ -36,5 +35,6 @@
 -(float)gaussianBellCurve:(float)difference;
 -(NSString *)getClosestPointName;
 -(float)getClosestPointDistance:(float)userLatitude withLon:(float)userLongtitude;
+-(void)stopTracking;
 
 @end
